@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="../images/favicon/favicon.ico">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8891f6df96.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link href="../css/cityguide.css" rel="stylesheet" />
+    <title>Municipality of Lamia</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row row1">
+            <div class="col-12 my-auto">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <div class="contactinfo">
+                    <i class="fas fa-phone"></i>
+                    <p id="phone">223 135 1065</p>
+                    <i class="fas fa-envelope"></i>
+                    <p id="email">info@lamia-city.gr</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row row2">
+            <div class="col-6 my-auto">
+                <img src="../images/logo/logo.png" />
+            </div>
+            <div class="col-3">
+            </div>
+            <div class="col-3 my-auto">
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded search" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                </div>
+            </div>
+        </div>
+        <div class="row row3">
+            <div class="col-2 my-auto">
+                <a id="menu" href="../index.html">HOME</a>
+            </div>
+            <div class="col-2 my-auto">
+                <div class="dropdown">
+                    <button id="menu" class="dropbtn">NEWS↓</button>
+                    <div class="dropdown-content">
+                        <a href="announcements.html">ANNOUNCEMENTS</a>
+                        <a href="pressreleases.html">PRESS RELEASES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 my-auto">
+                <a id="menu" href="events.html">EVENTS</a>
+            </div>
+            <div class="col-2 my-auto">
+                <a id="menu" href="cityguide.html">CITY GUIDE</a>
+            </div>
+
+            <div class="col-2 my-auto">
+                <div class="dropdown">
+                    <button id="menu" class="dropbtn">GALLERY↓</button>
+                    <div class="dropdown-content">
+                        <a href="photos.html">PHOTOS</a>
+                        <a href="historyculture.html">HISTORY & CULTURE</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2 my-auto">
+                <a id="menu" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div class="row" style="text-align: center; font-size: 30px; height: 80px;">
+            <div class="col-12 my-auto">City Guide</div>
+        </div>
+        <div class="row row4">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29539.83683888893!2d22.4202992060467!3d38.90127852023406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135f45553b3f43f1%3A0x5344ba71e6c6fec7!2sLamia%20351%2000!5e0!3m2!1sen!2sgr!4v1611330920506!5m2!1sen!2sgr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <div class="row row5">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Points of Interest..">
+            <table class="table table-dark" id="myTable">
+                <thead>
+                    <tr>
+                        <th scope="col">Number</th>
+                        <th scope="col">Point of interest</th>
+                        <th scope="col">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>"Kakogianneio" Higher School of Culture</td>
+                        <td>Education</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Statue of Athanasios Diakos Archeology</td>
+                        <td>Archaeological monuments</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Statue of Aris Velouchiotis Archeology</td>
+                        <td>Archaeological monuments</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Holy Jerusalem (Arsali) High</td>
+                        <td>Nature Attractions</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Alamana History</td>
+                        <td>Historic Sights</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Argyrochori Grove</td>
+                        <td>Nature Sights, Forest Villages</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Ancient Anthili</td>
+                        <td>History, Historic Sites</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Archaeological Museum</td>
+                        <td>Culture, Museums</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Ancient Temple</td>
+                        <td>Archeology, Archaeological sights</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Byzantine Castle of Ypati</td>
+                        <td>History, Castles</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Byzantine Museum of Fthiotida</td>
+                        <td>Culture, Museums</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>G.A.K.-Archives of Fthiotida</td>
+                        <td>Prefecture Culture, Libraries</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td>Public Library of Lamia</td>
+                        <td>Culture, Libraries</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td>Municipal Gallery of Lamia "Alekos Kontopoulos"</td>
+                        <td>Culture, Museums, Infrastructure</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td>Municipal Philharmonic of Lamia</td>
+                        <td>Culture, Education</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td>Municipal Theater of Lamia</td>
+                        <td>Culture, Theaters, Infrastructure</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <td>Municipal Conservatory of Lamia</td>
+                        <td>Culture, Education, Infrastructure</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td>Preserved Primary School of Kompotades</td>
+                        <td>History, Historic sights</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td>Art Workshops</td>
+                        <td>Culture, Education</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td>Church of Agia Sophia</td>
+                        <td>Religious sights, Holy Temples</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row row9">
+            <div class="col-2 my-auto">
+                <img src="../images/logo/logo-footer.png" />
+            </div>
+            <div class="col-7 my-auto">
+                <div>
+                    Panoramic photo album<br />
+
+                    The Municipality of Lamia, through the utilization of state-of-the-art tools and technologies,
+                    offers the visitor the possibility of virtual tour in digital representations of Thermopylae and
+                    personalized tour of indoor and outdoor areas, with emphasis on the historical triangle Thermopylae
+                    - Alamana - Gogopon mobile devices.
+                </div>
+            </div>
+            <div class="col-3 my-auto">
+                <div>
+                    Newsletters <br />
+                    Get informed with the latest news of the Municipality of Lamia through your email address.
+                </div>
+                <br />
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I agree to the terms of use</label>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your Email" aria-label="Email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-block" type="button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row10">
+            <div class="col-12 my-auto">
+                <div>
+                    Copyright © 2020 Municipality of Lamia, PC 35100, Tel. 15188 - info@lamia-city.gr.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+</html>

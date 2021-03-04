@@ -1,0 +1,124 @@
+﻿body {
+    font-family: 'Kufam', cursive;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    background-color: #151515;
+}
+.container {
+    background-color: white;
+    height: 100%;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    font-size: 25px;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: black;
+    color: #fe7777;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+.row1 {
+    height: 55px;
+}
+.row2 {
+    height: 100px;
+}
+.row3 {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+.row4 {
+    height: 600px;
+}
+.row5 {
+    background-image: url('../images/content/wallhaven-r2l1e7.jpg');
+}
+.row8 {
+    height: 200px;
+    text-align: center;
+}
+.row9 {
+    font-size: 15px;
+    height: 200px;
+    background-color: lightgrey;
+}
+.row10 {
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+}
+#menu {
+    color: white;
+    font-size: 25px;
+}
+#menu:hover {
+    color: #fe7777;
+}
+.fa-facebook-f, .fa-twitter, .fa-phone, .fa-envelope {
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+.fa-facebook-f:hover, .fa-twitter:hover {
+    color: #fe7777;
+}
+.contactinfo {
+    float: right;
+}
+#phone {
+    display: inline;
+}
+#email {
+    display: inline;
+}
+.search {
+    border-color: #fe7777;
+}
+form{
+    margin-top: 100px;
+
+}
+.btn {
+    color: white;
+    background-color: black;
+    border: none;
+}
+.btn:hover {
+    border: none;
+    color: white;
+    background-color: #fe7777;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #fe7777;
+}

@@ -1,0 +1,152 @@
+﻿body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #151515;
+}
+.container {
+    background-color: white;
+}
+/* ------------------------------------- SOCIAL MEDIA AND CONTACT ----------------------------------- */
+.fa-facebook-f, .fa-twitter, .fa-phone, .fa-envelope {
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+.fa-facebook-f:hover, .fa-twitter:hover {
+    color: #fe7777;
+}
+.contactinfo {
+    float: right;
+}
+#phone, #email {
+    display: inline;
+}
+/* ------------------------------------- LINE ACROSS THE PAGE ----------------------------------- */
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #fe7777;
+}
+/* ------------------------------------- SEARCH ----------------------------------- */
+.search {
+    border-color: #fe7777;
+}
+/* ------------------------------------- MENU AND DROPDOWN ----------------------------------- */
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    font-size: 25px;
+}
+#menu {
+    color: white;
+    font-size: 25px;
+}
+#menu:hover {
+        color: #fe7777;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: black;
+    color: #fe7777;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ------------------------------------- VIDEO ----------------------------------- */
+iframe {
+    width: 100%;
+    height: 515px;
+}
+/* ------------------------------------- ROWS ----------------------------------- */
+.row1 {
+    height: 55px;
+}
+.row2 {
+    height: 100px;
+}
+.row3 {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+.row5 {
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+}
+.row6 {
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+.row7 {
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+.row8 {
+    height: 200px;
+    text-align: center;
+}
+.row9 {
+    font-size: 15px;
+    height: 200px;
+    background-color: lightgrey;
+}
+.row10 {
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+}
+/* ------------------------------------- IMAGES ----------------------------------- */
+#img{
+    width: 100%;
+}
+#secondimg {
+    width: 270px;
+}
+#imgfeature1 {
+    width: 100px;
+}
+#imgfeature2 {
+    width: 150px;
+}
+#imgfeature3 {
+    width: 90px;
+}
+#imgfeature4 {
+    width: 110px;
+}
+/* ------------------------------------- ARROW LINKS ----------------------------------- */
+.fa-arrow-alt-circle-right {
+    font-size: 20px;
+    color: #34515A;
+}
+.fa-arrow-alt-circle-right:hover {
+    color: #fe7777;
+}
+/* ------------------------------------- SUBSCRIBE BUTTON ----------------------------------- */
+.btn {
+    color: white;
+    background-color: #34515a;
+}
+.btn:hover {
+    color: white;
+    background-color: #fe7777;
+}

@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: 'Kufam', cursive;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -44,6 +44,9 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 .dropdown:hover .dropbtn {
     background-color: black;
+}
+.blockquote-footer{
+    padding-top: 20px;
 }
 .row1 {
     height: 55px;

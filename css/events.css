@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: 'Kufam', cursive;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -67,7 +67,7 @@ a, a:hover, a:active, a:visited, a:focus {
     margin-bottom: 20px;
 }
 .rowdesc {
-    font-size: 15px;
+    font-size: 19px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
